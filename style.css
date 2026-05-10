@@ -1,21 +1,78 @@
 body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(135deg, black, purple, darkred);
-    color: white;
-    font-family: Arial, sans-serif;
+  /* Путь к файлу */
+  background-image: url('img/i.jpeg');
+  
+  /* Картинка не повторяется, если она меньше экрана */
+  background-repeat: no-repeat; 
+  
+  /* Картинка всегда по центру */
+  background-position: center; 
+  
+  /* Растягивает картинку, чтобы она полностью закрыла блок без искажений */
+  background-size: cover; 
+  
+  /* (Опционально) Фиксирует фон, чтобы он не уезжал при скролле */
+  background-attachment: fixed; 
+}
+
+.header {
+    
+    border: 4px solid  #000000;
+    background: linear-gradient(#FFFFFF, #808080);
+    border-radius: 14px;
+}
+
+.autor {
+    padding: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.autor:hover {
+    border: 10px solid #FFFFFF;
+    border-radius: 14px;
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    
+    border-bottom: 1px solid #FFFFFF;
+    gap: 14px;
 }
-
-h1 {
-    font-size: 50px;
-    animation: pulse 1.5s infinite;
+.main-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
 }
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.1); }
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
-
+.title {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+.name {
+    color: #888;
+    font-size: 0.9em;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.d {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 50px;
+}
+.fd {
+   color: #FFFFFF;
+}
