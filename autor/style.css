@@ -1,0 +1,20 @@
+
+body {
+    animation: iverts;
+    animation-timeline: scroll();
+    animation-duration: 1s;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes iverts {
+    from {
+        background: white;
+        color: black;
+    }
+    to {
+        background: black;
+        color: white;
+    }
+}
+
