@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #808080, #000);
+}
+.play {
+    background: linear-gradient(135deg, #85a3c5, #0f1622);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    width: 900px;
+    text-align: left;
+}
+.art {
+    width: 100%;
+    height: 900px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.au {
+    font-size: 50px;
+    margin: 20px;
+}
+.sd {
+   font-size: 50px;
+    margin: 20px;
+} 
+
+.con1 {
+    display: flex;
+    justify-content: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.progress {
+    width: 100%;
+    font-size: 50px;
+}
+.im {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.bt0 {
+    margin: 20px;
+    display: flex;
+    gap: 180px;
+}
+.bt {
+    width: 140px;
+    height: 150px;
+    background: #FFD700;
+    border-radius: 50px;
+    font-size: 100px;
+}
+
+.bt1 {
+    width: 140px;
+    height: 150px;
+    background: #FFD700;
+    border-radius: 50px;
+    font-size: 100px;
+}
+.bt2 {
+    width: 140px;
+    height: 150px;
+    background: #FFD700;
+    border-radius: 50px;
+    font-size: 100px;
+}

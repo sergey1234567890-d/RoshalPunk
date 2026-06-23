@@ -28,10 +28,7 @@ body {
     text-decoration: none;
 }
 
-.autor:hover {
-    border: 10px solid #FFFFFF;
-    border-radius: 14px;
-}
+
 
 .main {
     display: flex;
@@ -74,5 +71,47 @@ body {
     margin: 50px;
 }
 .fd {
+   color: #FFFFFF;
+}
+
+
+.main0 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    border-bottom: 1px solid #FFFFFF;
+    gap: 14px;
+}
+
+.main0-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.main0-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.main0-title {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+.main0-name {
+    color: #888;
+    font-size: 0.9em;   
+}
+
+.main0-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main0-fd {
    color: #FFFFFF;
 }
